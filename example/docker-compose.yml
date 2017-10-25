@@ -2,7 +2,7 @@ version: '3.2'
 
 services:
   alpine:
-    image: btquanto/alpine_base
+    image: btquanto/docker-alpine-base
     environment:
       - APP_USER_UID=1000
       - APP_USER_GID=1000
